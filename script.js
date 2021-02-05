@@ -1,10 +1,8 @@
-var ages = [10, 15, 18, 20];
+// var ages = [10, 15, 18, 20];
 
-document.write(ages + "<br>");
-
-var b = ages.some(checkAdult);
-document.write(b);
-
-function checkAdult(ages) {
-  return ages >= 18;
+for (var i = 0; i < 10; i++) {
+  alert("a");
+  // document.write("aaa");
 }
+
+document.write("aaa");
